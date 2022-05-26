@@ -5,7 +5,7 @@ Usage
 Setting it up
 ----------------
 
-You can remix the project<https://scratch.mit.edu/projects/696625915/> or you can modify the ``code`` variable
+You can remix https://scratch.mit.edu/projects/696625915/ or you can modify the ``code`` variable
 to modify the code. 
 
 Commands
@@ -15,7 +15,7 @@ Commands
 
 ``clear;`` Clears the console
 
-``random();`` A function that returns 1 through 100.
+``random();`` A function that returns 1 through 1k.
 
 ``halt()`` Halts the entire project.
 
