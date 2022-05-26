@@ -17,11 +17,16 @@ Commands
 
 ``random();`` A function that returns 1 through 1k.
 
-``halt()`` Halts the entire project.
+``halt();`` Halts the entire project.
+
+``nextbg;`` Changes the backdrop to the next available backdrop.
+
+``sysBeep`` **(CASE SENSITIVE)** Plays a beep sound for 0.17 seconds.
 
 
 Syntax Usage
 ----------------
+
 
 **Using a String**:
 
@@ -31,6 +36,7 @@ A way you can use this is by using the `print` command.
 
 ``print"Hello World";``
 
+
 **Using a Function**:
 
 Right now there is no way to use paramaters in a function.
@@ -39,3 +45,12 @@ You can use these examples to call a function.
 ``random();random();random();`` -- Prints 3 random numbers to console.
 
 ``random();random();random();halt();`` Same as above, but halts at the end.
+
+
+**Commenting**:
+
+Using a comment is as simple as writing 2 characters
+
+***Note that you MUST put a ``;`` after your comment***
+
+``// Hello! I am a comment!``
