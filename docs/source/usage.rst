@@ -5,7 +5,7 @@ Usage
 Setting it up
 ----------------
 
-You can remix the project or you can modify the `code` variable
+You can remix the project<https://scratch.mit.edu/projects/696625915/> or you can modify the ``code`` variable
 to modify the code. 
 
 Commands
