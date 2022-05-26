@@ -1,34 +1,41 @@
 Usage
 =====
 
-.. _installation:
 
-Installation
-------------
-
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
-
-Creating recipes
+Setting it up
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+You can remix the project or you can modify the `code` variable
+to modify the code. 
 
-.. autofunction:: lumache.get_random_ingredients
+Commands
+----------------
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+``print"string";`` Prints string out to the screen. 
 
-.. autoexception:: lumache.InvalidKindError
+``clear;`` Clears the console
 
-For example:
+``random();`` A function that returns 1 through 100.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+``halt()`` Halts the entire project.
 
+
+Syntax Usage
+----------------
+
+**Using a String**:
+
+You can start a string using double quotation marks like `"Hello!"`.
+
+A way you can use this is by using the `print` command.
+
+``print"Hello World";``
+
+**Using a Function**:
+
+Right now there is no way to use paramaters in a function.
+You can use these examples to call a function.
+
+``random();random();random();`` -- Prints 3 random numbers to console.
+
+``random();random();random();halt();`` Same as above, but halts at the end.
